@@ -78,12 +78,12 @@
         },
         {
             "type": "path",
-            "url": "packages/ikepu-tp/laravel-laravel-admin",
+            "url": "packages/ikepu-tp/laravel-admin",
             "symlink": true
         },
         {
             "type": "path",
-            "url": "packages/ikepu-tp/laravel-laravel-access-logger",
+            "url": "packages/ikepu-tp/laravel-access-logger",
             "symlink": true
         }
     ]
