@@ -5,7 +5,7 @@
 /public/storage
 /storage/*.key
 /vendor
-/packages
+/packages/ikepu-tp
 .env
 .env.backup
 .env.production

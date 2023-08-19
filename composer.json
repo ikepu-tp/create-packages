@@ -14,9 +14,7 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
-        "ikepu-tp/shorter-url": "dev-main",
-        "ikepu-tp/laravel-admin": "dev-main",
-        "ikepu-tp/laravel-access-logger": "dev-main"
+        "ikepu-tp/packages": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -68,22 +66,12 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
         {
             "type": "path",
-            "url": "packages/ikepu-tp/laravel-shorter-url",
-            "symlink": true
-        },
-        {
-            "type": "path",
-            "url": "packages/ikepu-tp/laravel-admin",
-            "symlink": true
-        },
-        {
-            "type": "path",
-            "url": "packages/ikepu-tp/laravel-access-logger",
+            "url": "packages",
             "symlink": true
         }
     ]
