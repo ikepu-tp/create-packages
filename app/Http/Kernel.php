@@ -24,6 +24,7 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
 
         \ikepu_tp\ActivityLog\app\Http\Middleware\ActivityLogMiddleware::class,
+
     ];
 
     /**
