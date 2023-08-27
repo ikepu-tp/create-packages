@@ -34,3 +34,10 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__ . '/auth.php';
+
+Route::get('/react', function () {
+    return view('react');
+})->name('react');
+
+
+Route::get("activity-log", [ActivityLogController::class, "index"])->middleware(["auth:" . config("activity-log.guard")])->name("activity-log.index");

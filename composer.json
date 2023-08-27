@@ -28,7 +28,8 @@
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.1",
-        "spatie/laravel-ignition": "^2.0"
+        "spatie/laravel-ignition": "^2.0",
+        "ikepu-tp/laravel-to-react": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -92,6 +93,11 @@
         {
             "type": "path",
             "url": "packages/ikepu-tp/laravel-access-logger",
+            "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "packages/ikepu-tp/to-react",
             "symlink": true
         }
     ]
