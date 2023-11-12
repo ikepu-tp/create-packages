@@ -17,7 +17,9 @@
         "ikepu-tp/laravel-activity-log": "dev-main",
         "ikepu-tp/packages": "dev-main",
         "ikepu-tp/laravel-admin": "dev-main",
-        "ikepu-tp/laravel-access-logger": "dev-main"
+        "ikepu-tp/laravel-access-logger": "dev-main",
+        "ikepu-tp/laravel-versioning":"dev-main",
+        "ikepu-tp/laravel-designer-helper": "dev-main"
     },
     "require-dev": {
         "opcodesio/log-viewer": "^3.0",
@@ -29,7 +31,8 @@
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.1",
         "spatie/laravel-ignition": "^2.0",
-        "ikepu-tp/laravel-to-react": "dev-main"
+        "ikepu-tp/laravel-to-react": "dev-main",
+        "ikepu-tp/laravel-template": "dev-main"
     },
     "autoload": {
         "psr-4": {
@@ -98,6 +101,21 @@
         {
             "type": "path",
             "url": "packages/ikepu-tp/to-react",
+            "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "packages/ikepu-tp/template",
+            "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "packages/ikepu-tp/versioning",
+            "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "packages/ikepu-tp/laravel-designer-helper",
             "symlink": true
         }
     ]

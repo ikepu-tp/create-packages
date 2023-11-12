@@ -1,0 +1,40 @@
+{
+    "version": "3.0.0",
+    "releaseDate": "2023/11/08",
+    "createdDate": "2023/11/08",
+    "authors":[
+
+        {
+            "name": "ikepu-tp",
+            "homepage": "https://ikepu-tp.com",
+            "email": "programing@ikepu-tp.com"
+        }
+    ],
+    "url":[
+        "https://ikepu-tp.com"
+    ],
+    "description": [
+        "description"
+    ],
+    "newFeatures": [
+        "new features"
+    ],
+    "changedFeatures": [
+        "changed features"
+    ],
+    "deletedFeatures": [
+        "deleted features"
+    ],
+    "notice": [
+        "notice"
+    ],
+    "security": [
+        "security"
+    ],
+    "futurePlans": [
+        "future plans"
+    ],
+    "note": [
+        "note"
+    ]
+}

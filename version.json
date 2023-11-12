@@ -1,0 +1,48 @@
+[
+    {
+        "version": "1.0.0",
+        "releaseDate": "2023/11/07",
+        "createdDate": "2023/11/07",
+        "Author": [
+            "ikepu-tp"
+        ],
+        "url": null,
+        "description": [
+            "a",
+            "nw"
+        ],
+        "newFeatures": null,
+        "changedFeatures": null,
+        "deletedFeatures": null,
+        "notice": null,
+        "security": null,
+        "futurePlans": null,
+        "note": null
+    },
+    {
+        "version": "2.0.0",
+        "path": null,
+        "releaseDate": "2023/11/08",
+        "createdDate": "2023/11/08",
+        "authors": [
+            {
+                "name": "ikepu-tp",
+                "homepage": "https://ikepu-tp.com",
+                "email": "programing@ikepu-tp.com"
+            }
+        ],
+        "url": null,
+        "description": null,
+        "newFeatures": null,
+        "changedFeatures": null,
+        "deletedFeatures": null,
+        "notice": null,
+        "security": null,
+        "futurePlans": null,
+        "note": null
+    },
+    {
+        "version": "3.0.0",
+        "path": "versions/3.0.0.json"
+    }
+]
