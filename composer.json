@@ -15,7 +15,6 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "ikepu-tp/laravel-activity-log": "dev-main",
-        "ikepu-tp/packages": "dev-main",
         "ikepu-tp/laravel-admin": "dev-main",
         "ikepu-tp/laravel-access-logger": "dev-main",
         "ikepu-tp/laravel-versioning":"dev-main",
@@ -80,12 +79,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "packages",
-            "symlink": true
-        },
-        {
-            "type": "path",
-            "url": "packages/ikepu-tp/activity-log",
+            "url": "packages/ikepu-tp/laravel-activity-log",
             "symlink": true
         },
         {
@@ -100,17 +94,17 @@
         },
         {
             "type": "path",
-            "url": "packages/ikepu-tp/to-react",
+            "url": "packages/ikepu-tp/laravel-to-react",
             "symlink": true
         },
         {
             "type": "path",
-            "url": "packages/ikepu-tp/template",
+            "url": "packages/ikepu-tp/laravel-template",
             "symlink": true
         },
         {
             "type": "path",
-            "url": "packages/ikepu-tp/versioning",
+            "url": "packages/ikepu-tp/laravel-versioning",
             "symlink": true
         },
         {
