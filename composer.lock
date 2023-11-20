@@ -976,7 +976,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-access-logger",
-                "reference": "1ca1aa8b3ea2177673afe7d022c424e029d44ae3"
+                "reference": "883886b259abe4f9ffd1f59b5bebd23cd8c059a8"
             },
             "require": {
                 "jenssegers/agent": "^2.6",
@@ -1026,7 +1026,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-activity-log",
-                "reference": "eaca8d63970aa5b45f0dd4712901e489796c42b8"
+                "reference": "8694e0e2610cea27ec0d92e9f5bb6f1fb0a63f4c"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1072,7 +1072,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-admin",
-                "reference": "ac926d171a07634cd79cd07b3fb6d39c4011290b"
+                "reference": "f098c96bb553691c1aa44f0a6b5b58a007270ff4"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1120,7 +1120,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-designer-helper",
-                "reference": "8b37f97bb8797b6ff1376e098873f784f1814ce3"
+                "reference": "dd1ce0a3854ba7115f035c3b7194b800bdff7247"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1166,7 +1166,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-versioning",
-                "reference": "cd6979172754b5071aaed8036f2ebb9fc2bb6a8f"
+                "reference": "97623ef6ae63af799668f1724aab3f80094fb5b6"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -6402,7 +6402,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-template",
-                "reference": "ded761729e04849cc99a032dd3d1df0bf79c4a2b"
+                "reference": "9ba403ce6fa1bcd4fd1235e5d465032c5b358afa"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -6448,7 +6448,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-to-react",
-                "reference": "32cb65573e32bf9af33255fa0e27dde551370e43"
+                "reference": "4d42a4f86053e189da541592c7fb022f88532c11"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -6861,21 +6861,21 @@
         },
         {
             "name": "opcodesio/log-viewer",
-            "version": "v3.1.7",
+            "version": "v3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opcodesio/log-viewer.git",
-                "reference": "68d9f76d9e06755be0ac403e6717fcd2857dc695"
+                "reference": "2fd70515e8c10190fe62e27c32066462f593e847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opcodesio/log-viewer/zipball/68d9f76d9e06755be0ac403e6717fcd2857dc695",
-                "reference": "68d9f76d9e06755be0ac403e6717fcd2857dc695",
+                "url": "https://api.github.com/repos/opcodesio/log-viewer/zipball/2fd70515e8c10190fe62e27c32066462f593e847",
+                "reference": "2fd70515e8c10190fe62e27c32066462f593e847",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^8.0|^9.0|^10.0",
-                "opcodesio/mail-parser": "^0.1.1",
+                "opcodesio/mail-parser": "^0.1.6",
                 "php": "^8.0"
             },
             "conflict": {
@@ -6933,7 +6933,7 @@
             ],
             "support": {
                 "issues": "https://github.com/opcodesio/log-viewer/issues",
-                "source": "https://github.com/opcodesio/log-viewer/tree/v3.1.7"
+                "source": "https://github.com/opcodesio/log-viewer/tree/v3.1.8"
             },
             "funding": [
                 {
@@ -6945,20 +6945,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-19T07:42:33+00:00"
+            "time": "2023-11-19T09:15:38+00:00"
         },
         {
             "name": "opcodesio/mail-parser",
-            "version": "v0.1.5",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opcodesio/mail-parser.git",
-                "reference": "7668596baa73ef2678ab6888f1a4639d7d054f21"
+                "reference": "639ef31cbd146a63416283e75afce152e13233ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opcodesio/mail-parser/zipball/7668596baa73ef2678ab6888f1a4639d7d054f21",
-                "reference": "7668596baa73ef2678ab6888f1a4639d7d054f21",
+                "url": "https://api.github.com/repos/opcodesio/mail-parser/zipball/639ef31cbd146a63416283e75afce152e13233ea",
+                "reference": "639ef31cbd146a63416283e75afce152e13233ea",
                 "shasum": ""
             },
             "require": {
@@ -6996,9 +6996,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opcodesio/mail-parser/issues",
-                "source": "https://github.com/opcodesio/mail-parser/tree/v0.1.5"
+                "source": "https://github.com/opcodesio/mail-parser/tree/v0.1.6"
             },
-            "time": "2023-08-25T16:34:23+00:00"
+            "time": "2023-11-19T08:47:43+00:00"
         },
         {
             "name": "phar-io/manifest",

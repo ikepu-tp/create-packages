@@ -1,9 +1,16 @@
 <?php
 
-namespace Tests;
+namespace Tests\Feature\Designer;
+
+use Illuminate\Support\Str;
 
 trait Funcs
 {
+    public function setHeaders(): void
+    {
+        $this->withHeader("Accept", "application/json");
+        $this->withHeader("X-NONCE", Str::random(10));
+    }
     public function getStatus(): array
     {
         return [

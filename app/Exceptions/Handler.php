@@ -39,7 +39,7 @@ class Handler extends ExceptionHandler
     ];
 
     protected $dontReport = [
-        ExceptionsErrorException::class,
+        //ExceptionsErrorException::class,
     ];
 
     /**
@@ -54,6 +54,7 @@ class Handler extends ExceptionHandler
 
     public function render($request, Throwable $e)
     {
+        return parent::render($request, $e);
         if ($request->expectsJson()) return $this->renderApi($request, $e);
         return $this->renderWeb($request, $e);
     }

@@ -34,7 +34,7 @@ return [
      */
     "guards" => [
         "web" => "web",
-        "api" => "api",
+        "api" => "web",
     ],
 
     /**
