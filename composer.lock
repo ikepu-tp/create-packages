@@ -976,7 +976,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-access-logger",
-                "reference": "883886b259abe4f9ffd1f59b5bebd23cd8c059a8"
+                "reference": "1ca1aa8b3ea2177673afe7d022c424e029d44ae3"
             },
             "require": {
                 "jenssegers/agent": "^2.6",
@@ -1026,7 +1026,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-activity-log",
-                "reference": "8694e0e2610cea27ec0d92e9f5bb6f1fb0a63f4c"
+                "reference": "eaca8d63970aa5b45f0dd4712901e489796c42b8"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1072,7 +1072,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-admin",
-                "reference": "f098c96bb553691c1aa44f0a6b5b58a007270ff4"
+                "reference": "ac926d171a07634cd79cd07b3fb6d39c4011290b"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1120,7 +1120,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-designer-helper",
-                "reference": "dd1ce0a3854ba7115f035c3b7194b800bdff7247"
+                "reference": "8b37f97bb8797b6ff1376e098873f784f1814ce3"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -1166,7 +1166,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-versioning",
-                "reference": "97623ef6ae63af799668f1724aab3f80094fb5b6"
+                "reference": "cd6979172754b5071aaed8036f2ebb9fc2bb6a8f"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -6126,16 +6126,16 @@
     "packages-dev": [
         {
             "name": "askdkc/breezejp",
-            "version": "v1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/askdkc/breezejp.git",
-                "reference": "33174c9785f5f1fb3824bc76b7cb80127ee574b4"
+                "reference": "8a5ed54f0cff027f8b346d05bb0b44c5d4ec4a3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/askdkc/breezejp/zipball/33174c9785f5f1fb3824bc76b7cb80127ee574b4",
-                "reference": "33174c9785f5f1fb3824bc76b7cb80127ee574b4",
+                "url": "https://api.github.com/repos/askdkc/breezejp/zipball/8a5ed54f0cff027f8b346d05bb0b44c5d4ec4a3f",
+                "reference": "8a5ed54f0cff027f8b346d05bb0b44c5d4ec4a3f",
                 "shasum": ""
             },
             "require": {
@@ -6192,7 +6192,7 @@
             ],
             "support": {
                 "issues": "https://github.com/askdkc/breezejp/issues",
-                "source": "https://github.com/askdkc/breezejp/tree/v1.7.1"
+                "source": "https://github.com/askdkc/breezejp/tree/v1.7.2"
             },
             "funding": [
                 {
@@ -6204,7 +6204,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "time": "2023-09-02T02:29:30+00:00"
+            "time": "2023-11-20T10:53:41+00:00"
         },
         {
             "name": "fakerphp/faker",
@@ -6402,7 +6402,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-template",
-                "reference": "9ba403ce6fa1bcd4fd1235e5d465032c5b358afa"
+                "reference": "ded761729e04849cc99a032dd3d1df0bf79c4a2b"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -6448,7 +6448,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/ikepu-tp/laravel-to-react",
-                "reference": "4d42a4f86053e189da541592c7fb022f88532c11"
+                "reference": "32cb65573e32bf9af33255fa0e27dde551370e43"
             },
             "require": {
                 "laravel/framework": "^10.8",
@@ -8889,16 +8889,16 @@
         },
         {
             "name": "theseer/tokenizer",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e"
+                "reference": "b2ad5003ca10d4ee50a12da31de12a5774ba6b96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
-                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/b2ad5003ca10d4ee50a12da31de12a5774ba6b96",
+                "reference": "b2ad5003ca10d4ee50a12da31de12a5774ba6b96",
                 "shasum": ""
             },
             "require": {
@@ -8927,7 +8927,7 @@
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "support": {
                 "issues": "https://github.com/theseer/tokenizer/issues",
-                "source": "https://github.com/theseer/tokenizer/tree/1.2.1"
+                "source": "https://github.com/theseer/tokenizer/tree/1.2.2"
             },
             "funding": [
                 {
@@ -8935,7 +8935,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-28T10:34:58+00:00"
+            "time": "2023-11-20T00:12:19+00:00"
         }
     ],
     "aliases": [],
@@ -8955,5 +8955,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
