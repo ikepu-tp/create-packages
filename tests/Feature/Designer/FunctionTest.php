@@ -37,10 +37,18 @@ class FunctionTest extends TestCase
         $this->project = Project::factory()->create();
         $this->data = [
             "name" => "name",
-            "function_category" => Func_category::factory()->create(["project_id" => $this->project->id]),
-            "function_class" => Func_class::factory()->create(["project_id" => $this->project->id]),
-            "function_user" => Func_user::factory()->create(["project_id" => $this->project->id]),
-            "function_progress" => Func_progress::factory()->create(["project_id" => $this->project->id]),
+            "function_category" => [
+                "id" => Func_category::factory()->create(["project_id" => $this->project->id])->id
+            ],
+            "function_class" => [
+                "id" => Func_class::factory()->create(["project_id" => $this->project->id])->id
+            ],
+            "function_user" => [
+                "id" => Func_user::factory()->create(["project_id" => $this->project->id])->id
+            ],
+            "function_progress" => [
+                "id" => Func_progress::factory()->create(["project_id" => $this->project->id])->id
+            ],
             "outline" => "outline",
         ];
     }
