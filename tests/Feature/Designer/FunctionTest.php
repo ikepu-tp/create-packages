@@ -2,33 +2,53 @@
 
 namespace Tests\Feature\Designer;
 
+use ikepu_tp\DesignerHelper\app\Models\Func_category;
 use ikepu_tp\DesignerHelper\app\Models\Func_class;
+use ikepu_tp\DesignerHelper\app\Models\Func_progress;
+use ikepu_tp\DesignerHelper\app\Models\Func_user;
+use ikepu_tp\DesignerHelper\app\Models\Functions;
 use ikepu_tp\DesignerHelper\app\Models\Project;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class FuncClassTest extends TestCase
+class FunctionTest extends TestCase
 {
     use RefreshDatabase;
     use Funcs;
 
-    public $routeName = "function.class";
-    public $modelName = "func_class";
+    public $routeName = "function";
+    public $modelName = "functions";
     public $resource = [
         "id",
+        "name",
+        "function_category",
+        "function_class",
+        "function_user",
+        "function_progress",
+        "outline",
     ];
     public $data = [];
+    public $project;
 
     public function setUp(): void
     {
         parent::setUp();
         $this->setHeaders();
+        $this->project = Project::factory()->create();
+        $this->data = [
+            "name" => "name",
+            "function_category" => Func_category::factory()->create(["project_id" => $this->project->id]),
+            "function_class" => Func_class::factory()->create(["project_id" => $this->project->id]),
+            "function_user" => Func_user::factory()->create(["project_id" => $this->project->id]),
+            "function_progress" => Func_progress::factory()->create(["project_id" => $this->project->id]),
+            "outline" => "outline",
+        ];
     }
 
     public function getParameters(bool $item = false, array $parameters = []): array
     {
-        $parameters["project"] = Project::factory()->create();
-        if ($item) $parameters[$this->modelName] = Func_class::factory()->create(["project_id" => $parameters["project"]->id]);
+        $parameters["project"] = $this->project;
+        if ($item) $parameters[$this->modelName] = Functions::factory()->create(["project_id" => $parameters["project"]->id]);
         return $parameters;
     }
 

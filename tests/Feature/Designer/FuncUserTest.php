@@ -2,22 +2,27 @@
 
 namespace Tests\Feature\Designer;
 
-use ikepu_tp\DesignerHelper\app\Models\Func_class;
+use ikepu_tp\DesignerHelper\app\Models\Func_user;
 use ikepu_tp\DesignerHelper\app\Models\Project;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class FuncClassTest extends TestCase
+class FuncUserTest extends TestCase
 {
     use RefreshDatabase;
     use Funcs;
 
-    public $routeName = "function.class";
-    public $modelName = "func_class";
+    public $routeName = "function.user";
+    public $modelName = "func_user";
     public $resource = [
         "id",
+        "name",
+        "note",
     ];
-    public $data = [];
+    public $data = [
+        "name" => "name",
+        "note" => "note",
+    ];
 
     public function setUp(): void
     {
@@ -28,7 +33,7 @@ class FuncClassTest extends TestCase
     public function getParameters(bool $item = false, array $parameters = []): array
     {
         $parameters["project"] = Project::factory()->create();
-        if ($item) $parameters[$this->modelName] = Func_class::factory()->create(["project_id" => $parameters["project"]->id]);
+        if ($item) $parameters[$this->modelName] = Func_user::factory()->create(["project_id" => $parameters["project"]->id]);
         return $parameters;
     }
 

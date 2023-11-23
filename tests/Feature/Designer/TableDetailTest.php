@@ -4,6 +4,7 @@ namespace Tests\Feature\Designer;
 
 use ikepu_tp\DesignerHelper\app\Models\Project;
 use ikepu_tp\DesignerHelper\app\Models\Table_detail;
+use ikepu_tp\DesignerHelper\app\Models\Table_outline;
 use ikepu_tp\DesignerHelper\app\Models\Table_setting;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -49,8 +50,9 @@ class TableDetailTest extends TestCase
     public function getParameters(bool $item = false, array $parameters = []): array
     {
         $parameters["project"] = Project::factory()->create();
+        $parameters["table_outline"] = Table_outline::factory()->create(["project_id" => $parameters["project"]->id]);
         $this->data["table_setting"]["id"] = Table_setting::factory()->create(["project_id" => $parameters["project"]->id])->id;
-        if ($item) $parameters["table_detail"] = Table_detail::factory()->create(["project_id" => $parameters["project"]->id]);
+        if ($item) $parameters["table_detail"] = Table_detail::factory()->create(["table_outline_id" => $parameters["table_outline"]->id])->id;
         return $parameters;
     }
 
