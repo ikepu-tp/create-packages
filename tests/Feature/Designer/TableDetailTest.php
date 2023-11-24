@@ -17,6 +17,7 @@ class TableDetailTest extends TestCase
     public $routeName = "table.detail";
     public $resource = [
         "id",
+        "name",
         "col_name",
         "table_setting",
         "col_digits",
@@ -28,6 +29,7 @@ class TableDetailTest extends TestCase
         "note",
     ];
     public $data = [
+        "name" => "名前",
         "col_name" => "name",
         "table_setting" => [
             "id" => 1,
@@ -52,7 +54,7 @@ class TableDetailTest extends TestCase
         $parameters["project"] = Project::factory()->create();
         $parameters["table_outline"] = Table_outline::factory()->create(["project_id" => $parameters["project"]->id]);
         $this->data["table_setting"]["id"] = Table_setting::factory()->create(["project_id" => $parameters["project"]->id])->id;
-        if ($item) $parameters["table_detail"] = Table_detail::factory()->create(["table_outline_id" => $parameters["table_outline"]->id])->id;
+        if ($item) $parameters["table_detail"] = Table_detail::factory()->create(["table_outline_id" => $parameters["table_outline"]->id]);
         return $parameters;
     }
 
