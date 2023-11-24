@@ -16,8 +16,13 @@ class FuncClassTest extends TestCase
     public $modelName = "func_class";
     public $resource = [
         "id",
+        "name",
+        "note",
     ];
-    public $data = [];
+    public $data = [
+        "name" => "name",
+        "note" => "note",
+    ];
 
     public function setUp(): void
     {
