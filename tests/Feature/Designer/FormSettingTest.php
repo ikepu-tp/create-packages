@@ -2,36 +2,26 @@
 
 namespace Tests\Feature\Designer;
 
-use ikepu_tp\DesignerHelper\app\Models\Exception;
+use ikepu_tp\DesignerHelper\app\Models\Form_setting;
 use ikepu_tp\DesignerHelper\app\Models\Project;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class ExceptionTest extends TestCase
+class FormSettingTest extends TestCase
 {
     use RefreshDatabase;
     use Funcs;
 
-    public $routeName = "exception";
-    public $modelName = "exception";
+    public $routeName = "form.setting";
+    public $modelName = "form_setting";
     public $resource = [
         "id",
         "name",
-        "http_code",
-        "error_code",
-        "abstract",
-        "title",
-        "default_message",
-        "note",
+        "type",
     ];
     public $data = [
-        "name" => "project name",
-        "http_code" => "404",
-        "error_code" => "404000",
-        "abstract" => "ERROR",
-        "title" => "エラーが発生",
-        "default_message" => "エラーが発生しました。",
-        "note" => "This is a example note."
+        "name" => "test",
+        "type" => "input",
     ];
 
     public function setUp(): void
@@ -43,7 +33,7 @@ class ExceptionTest extends TestCase
     public function getParameters(bool $item = false, array $parameters = []): array
     {
         $parameters["project"] = Project::factory()->create();
-        if ($item) $parameters[$this->modelName] = Exception::factory()->create(["project_id" => $parameters["project"]->id]);
+        if ($item) $parameters[$this->modelName] = Form_setting::factory()->create(["project_id" => $parameters["project"]->id]);
         return $parameters;
     }
 
