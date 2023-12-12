@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use ikepu_tp\AccessLogger\app\Http\Middleware\AccessLoggerMiddleware;
+use ikepu_tp\SecureAuth\app\Http\Middleware\TFAuthMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -72,6 +73,6 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
-        //"tfa" => TFAuthMiddleware::class,
+        "tfa" => TFAuthMiddleware::class,
     ];
 }
