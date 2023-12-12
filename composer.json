@@ -18,7 +18,8 @@
         "ikepu-tp/laravel-admin": "dev-main",
         "ikepu-tp/laravel-access-logger": "dev-main",
         "ikepu-tp/laravel-versioning":"dev-main",
-        "ikepu-tp/laravel-designer-helper": "dev-main"
+        "ikepu-tp/laravel-designer-helper": "dev-main",
+        "ikepu-tp/laravel-secure-auth": "dev-main"
     },
     "require-dev": {
         "opcodesio/log-viewer": "^3.0",
@@ -110,6 +111,11 @@
         {
             "type": "path",
             "url": "packages/ikepu-tp/laravel-designer-helper",
+            "symlink": true
+        },
+        {
+            "type": "path",
+            "url": "packages/ikepu-tp/laravel-secure-auth",
             "symlink": true
         }
     ]
