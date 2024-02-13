@@ -44,5 +44,25 @@
     {
         "version": "3.0.0",
         "path": "versions/3.0.0.json"
+    },
+    {
+        "version": "3.1.0",
+        "path": "versions/3.1.0.json"
+    },
+    {
+        "version": "3.2.0",
+        "path": "versions/3.2.0.json"
+    },
+    {
+        "version": "3.3.0",
+        "path": "versions/3.3.0.json"
+    },
+    {
+        "version": "3.3.1",
+        "path": "versions/3.3.1.json"
+    },
+    {
+        "version": "3.3.2",
+        "path": "versions/3.3.2.json"
     }
 ]
