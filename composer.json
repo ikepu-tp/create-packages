@@ -20,7 +20,8 @@
 		"ikepu-tp/laravel-versioning": "dev-main",
 		"ikepu-tp/laravel-designer-helper": "dev-main",
 		"ikepu-tp/laravel-secure-auth": "dev-main",
-		"ikepu-tp/laravel-file-library": "dev-main"
+		"ikepu-tp/laravel-file-library": "dev-main",
+		"ikepu-tp/laravel-score-crop": "dev-main"
 	},
 	"require-dev": {
 		"askdkc/breezejp": "^1.7",
@@ -124,6 +125,11 @@
 		{
 			"type": "path",
 			"url": "packages/ikepu-tp/laravel-file-library",
+			"symlink": true
+		},
+		{
+			"type": "path",
+			"url": "packages/ikepu-tp/laravel-score-crop",
 			"symlink": true
 		}
 	]
