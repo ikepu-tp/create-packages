@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\HandleInertiaRequests;
 use ikepu_tp\AccessLogger\app\Http\Middleware\AccessLoggerMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -23,7 +24,8 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
 
-        \ikepu_tp\ActivityLog\app\Http\Middleware\ActivityLogMiddleware::class,
+        // \ikepu_tp\ActivityLog\app\Http\Middleware\ActivityLogMiddleware::class,
+        HandleInertiaRequests::class,
 
     ];
 
@@ -41,7 +43,7 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
 
-            AccessLoggerMiddleware::class . ":web",
+            //AccessLoggerMiddleware::class . ":web",
         ],
 
         'api' => [
@@ -49,7 +51,7 @@ class Kernel extends HttpKernel
             \Illuminate\Routing\Middleware\ThrottleRequests::class . ':api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
 
-            AccessLoggerMiddleware::class . ":api",
+            //AccessLoggerMiddleware::class . ":api",
         ],
     ];
 
