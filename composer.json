@@ -13,23 +13,12 @@
 		"laravel/breeze": "^2.0",
 		"laravel/framework": "^12.0",
 		"laravel/sanctum": "^4.0",
-		"laravel/tinker": "^2.9",
-		"ikepu-tp/laravel-activity-log": "dev-main",
-		"ikepu-tp/laravel-admin": "dev-main",
-		"ikepu-tp/laravel-access-logger": "dev-main",
-		"ikepu-tp/laravel-versioning": "dev-main",
-		"ikepu-tp/laravel-designer-helper": "dev-main",
-		"ikepu-tp/laravel-secure-auth": "dev-main",
-		"ikepu-tp/laravel-file-library": "dev-main",
-		"ikepu-tp/laravel-score-crop": "dev-main"
+		"laravel/tinker": "^2.9"
 	},
 	"require-dev": {
-		"askdkc/breezejp": "^1.7",
 		"barryvdh/laravel-debugbar": "^3.14",
 		"barryvdh/laravel-ide-helper": "*",
 		"fakerphp/faker": "^1.9.1",
-		"ikepu-tp/laravel-template": "dev-main",
-		"ikepu-tp/laravel-to-react": "dev-main",
 		"laravel/pint": "^1.0",
 		"laravel/sail": "^1.18",
 		"mockery/mockery": "^1.4.4",
@@ -81,56 +70,5 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"repositories": [
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-activity-log",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-admin",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-access-logger",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-to-react",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-template",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-versioning",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-designer-helper",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-secure-auth",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-file-library",
-			"symlink": true
-		},
-		{
-			"type": "path",
-			"url": "packages/ikepu-tp/laravel-score-crop",
-			"symlink": true
-		}
-	]
+	"repositories": []
 }
